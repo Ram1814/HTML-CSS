@@ -1,0 +1,25 @@
+<input id=t1 /> <br>
+<input id=t2 /> <br>
+<input type=button value=+ onclick=xyz(this)>
+<input type=button value=- onclick=xyz(this)>
+<input type=button value=* onclick=xyz(this)>
+<input type=button value=/ onclick=xyz(this)>
+<br>
+<div id=d1 > </div>
+<script>
+function xyz(n)
+{
+a=parseFloat(t1.value)
+b=parseFloat(t2.value)
+if(n.value=="+")
+c=a+b
+else if(n.value=="-")
+c=a-b
+else if(n.value=="*")
+c=a*b
+else
+c=a/b
+d1.innerHTML=c
+}
+</script>
+
