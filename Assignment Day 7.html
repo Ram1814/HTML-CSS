@@ -1,0 +1,143 @@
+<html>
+<body>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+</style>
+</head>
+<body >
+
+<div class="header">
+  <h1>Perfect</h1>
+  <h2>Song</h2>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li>ARTISTS<br>Ed Sheeran</li>
+      <li>ALBUM<br>Live Fast (US Exclusive)</li>
+	  <li>RELEASED <br> 2017</li>
+	  <li>GENRE<br>Romance</li>
+    </ul>
+  </div>
+  <div class="col-6 col-s-9">
+    <h1>Ed Sheeran - Perfect</h1>
+    <p ><strong>[Ed Sheeran:]</strong<br>I found a love for me<br>Oh darling, just dive right in and follow my lead<br>Well, I found a girl, beautiful and sweet<br>
+Oh, I never knew you were the someone waiting for me<br><br>'Cause we were just kids when we fell in love<br>Not knowing what it was.</p>
+    <video width="400" controls>
+      <source src="sam.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside">
+	   <h2><a href="on.jpg" taregt="_blank"><img src="on.jpg" alt="" width="140"></a>
+</h2>
+      <h2>What?</h2>
+      <p>"Perfect" is a song by English singer-songwriter Ed Sheeran from his third studio album, ÷ (2017).[1] After the album's release, it charted at number four on the UK Singles Chart.[2] On 21 August 2017, Billboard announced that "Perfect" would be the fourth single from the album.[3] The song was serviced to pop radio on 26 September 2017 as the third single from the album in the United States (fourth overall).</p>
+      <h2>Where?</h2>
+      <p>The song eventually reached number one on the UK Singles Chart and the US Billboard Hot 100 in December 2017. "Perfect" became the UK Christmas number-one song for 2017 and also peaked at number one in sixteen other countries, including Australia, Canada, Ireland, and New Zealand.
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Resize the browser window to see how the content respond to the resizing.</p>
+</div>
+
+</body>
+</html>
